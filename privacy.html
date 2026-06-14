@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — HuatLah! 🇸🇬</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --black:     #0D0D0D;
+      --green:     #00E67A;
+      --green-dim: #00b35e;
+      --cream:     #F5F2EB;
+      --grey:      #6B6B6B;
+      --border:    #1F1F1F;
+      --card:      #141414;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--black);
+      color: var(--cream);
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.25rem 2rem;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      background: rgba(13,13,13,0.92);
+      backdrop-filter: blur(8px);
+      z-index: 100;
+    }
+    .nav-logo {
+      font-family: 'Space Mono', monospace;
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: var(--green);
+      text-decoration: none;
+    }
+    .nav-back {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.8rem;
+      color: var(--grey);
+      text-decoration: none;
+      border: 1px solid var(--border);
+      padding: 0.5rem 1.25rem;
+      transition: border-color 0.15s, color 0.15s;
+    }
+    .nav-back:hover { border-color: var(--cream); color: var(--cream); }
+
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 4rem 2rem 6rem;
+    }
+
+    .page-label {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--green);
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-family: 'Space Mono', monospace;
+      font-size: clamp(1.6rem, 4vw, 2.4rem);
+      font-weight: 700;
+      line-height: 1.15;
+      margin-bottom: 0.75rem;
+    }
+
+    .meta {
+      font-size: 0.85rem;
+      color: var(--grey);
+      margin-bottom: 3rem;
+      font-family: 'Space Mono', monospace;
+    }
+
+    .highlight-box {
+      border: 1px solid var(--green);
+      background: #0A1A10;
+      padding: 1.5rem 1.75rem;
+      margin-bottom: 3rem;
+    }
+    .highlight-box p {
+      font-size: 0.95rem;
+      color: #A0D8B3;
+      line-height: 1.7;
+    }
+    .highlight-box p + p { margin-top: 0.75rem; }
+
+    h2 {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--green);
+      letter-spacing: 0.04em;
+      margin-top: 2.5rem;
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    p {
+      font-size: 0.95rem;
+      color: #A0A0A0;
+      line-height: 1.8;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: none;
+      margin-bottom: 1rem;
+    }
+    ul li {
+      font-size: 0.95rem;
+      color: #A0A0A0;
+      line-height: 1.8;
+      padding-left: 1.25rem;
+      position: relative;
+    }
+    ul li::before {
+      content: "→";
+      position: absolute;
+      left: 0;
+      color: var(--green);
+      font-family: 'Space Mono', monospace;
+    }
+
+    .divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 2rem 0;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 2rem;
+      text-align: center;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.75rem;
+      color: var(--grey);
+    }
+    footer a { color: var(--grey); text-decoration: none; }
+    footer a:hover { color: var(--green); }
+
+    @media (max-width: 600px) {
+      nav { padding: 1rem; }
+      .wrap { padding: 2.5rem 1rem 4rem; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="index.html">HuatLah! 🇸🇬</a>
+  <a class="nav-back" href="index.html">← Back</a>
+</nav>
+
+<div class="wrap">
+
+  <p class="page-label">Legal</p>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Effective date: June 2026 &nbsp;·&nbsp; HuatLah! by Evoq Ventures</p>
+
+  <div class="highlight-box">
+    <p>HuatLah! does not collect sensitive financial data. We never ask for your bank credentials, NRIC, credit card details, or passwords. Everything you log is text you type yourself.</p>
+    <p>HuatLah! is a personal record-keeping tool. We do not provide financial advice, investment recommendations, or regulated financial services of any kind.</p>
+  </div>
+
+  <h2>1. What we collect</h2>
+  <p>When you use HuatLah! via Telegram, we collect only what is necessary to provide the service:</p>
+  <ul>
+    <li>Your Telegram user ID, username, and first name — provided by Telegram when you start the bot</li>
+    <li>Transaction records you enter manually (descriptions, amounts, dates)</li>
+    <li>Goals, budgets, subscriptions, and debts you create within the bot</li>
+    <li>Your subscription status if you upgrade to UPZ (managed via Stripe)</li>
+  </ul>
+  <p>We do not collect your phone number, email address, location, or any data beyond what you explicitly type into the bot.</p>
+
+  <h2>2. What we do not collect</h2>
+  <ul>
+    <li>Bank account credentials or login details of any kind</li>
+    <li>Credit or debit card numbers</li>
+    <li>NRIC, passport, or government-issued ID numbers</li>
+    <li>Real-time transaction data from banks or payment providers</li>
+    <li>Biometric data</li>
+    <li>Device information or IP addresses</li>
+  </ul>
+
+  <h2>3. How we use your data</h2>
+  <p>Your data is used solely to operate HuatLah! — to display your transaction history, generate reports, track goals, and provide the features you use. We do not:</p>
+  <ul>
+    <li>Sell your data to third parties</li>
+    <li>Use your data for advertising</li>
+    <li>Share your data with anyone except as described below</li>
+    <li>Use your data to train AI models</li>
+  </ul>
+
+  <h2>4. Couple data sharing</h2>
+  <p>If you link your account with a partner using <span style="font-family:'Space Mono',monospace;color:var(--green);font-size:0.85rem;">/link</span> and <span style="font-family:'Space Mono',monospace;color:var(--green);font-size:0.85rem;">/join</span>, your transaction history, goals, budgets, subscriptions, and debts become visible to your linked partner. This is the intended behaviour of the couples feature. Use <span style="font-family:'Space Mono',monospace;color:var(--green);font-size:0.85rem;">/unlink</span> at any time to separate accounts.</p>
+
+  <h2>5. Payments</h2>
+  <p>UPZ subscriptions are processed by <a href="https://stripe.com" style="color:var(--green);">Stripe</a>. HuatLah! never sees or stores your payment card details. Stripe's privacy policy applies to all payment transactions. We retain only your Stripe customer ID and subscription status to manage your plan.</p>
+
+  <h2>6. Data retention</h2>
+  <p>Your data is stored for as long as your account is active. If you stop using HuatLah!, your data remains in our database but is not shared or used. We do not currently offer account deletion — contact us if you want your data removed and we will action it promptly.</p>
+
+  <h2>7. Data security</h2>
+  <p>Your data is stored in a PostgreSQL database hosted on Railway. Access is restricted and the database is not publicly exposed. That said, no system is perfectly secure — do not store information in HuatLah! that you consider highly sensitive.</p>
+
+  <h2>8. Not financial advice</h2>
+  <p>HuatLah! is a personal record-keeping and budgeting tool. Nothing in the app — including AI chat responses, reports, goal tracking, or any other feature — constitutes financial advice, investment advice, or any form of regulated financial service. HuatLah! is not licensed by the Monetary Authority of Singapore (MAS) or any other financial regulator. Always consult a qualified financial advisor for financial decisions.</p>
+
+  <h2>9. Changes to this policy</h2>
+  <p>We may update this policy as the product evolves. The effective date at the top of this page will reflect the most recent update. Continued use of HuatLah! after changes constitutes acceptance of the updated policy.</p>
+
+  <h2>10. Contact</h2>
+  <p>Questions about this policy? Reach us via Telegram at <a href="https://t.me/HuatLahSG" style="color:var(--green);">@HuatLahSG</a>.</p>
+
+</div>
+
+<footer>
+  <p>© 2026 HuatLah! · Evoq Ventures · Singapore 🇸🇬</p>
+</footer>
+
+</body>
+</html>
